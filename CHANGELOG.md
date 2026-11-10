@@ -16,6 +16,16 @@ Inspired by [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Api Generator: keep properties of `anyOf`/`oneOf`/`allOf` members nested in an `allOf`, and properties declared next to a composition keyword. Fixes missing `field`/`script` on `MetricAggregationBase` and `TermsAggregationFields`, and missing `index`/`path`/`routing`/`store` on `TermsLookup` ([#1162](https://github.com/opensearch-project/opensearch-js/pull/1162))
 ### Security
 
+## [3.10.0]
+### Added
+### Dependencies
+### Changed
+### Deprecated
+### Removed
+### Fixed
+- Apply the response size limits even when the response has no `Content-Length` header, and cap the size of a decompressed response body ([#1166](https://github.com/opensearch-project/opensearch-js/pull/1166))
+### Security
+
 ## [3.9.0]
 Versions 3.7.0 and 3.8.0 are skipped. The numbers were used by the malicious packages described in [GHSA-27f5-xjrr-q9ff](https://github.com/opensearch-project/opensearch-js/security/advisories/GHSA-27f5-xjrr-q9ff), and npm does not allow a version number to be used again.
 
